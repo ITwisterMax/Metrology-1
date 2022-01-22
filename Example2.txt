@@ -1,0 +1,22 @@
+a = [[3, 1, 2, 4, 11],[8, 3, 5, 1, 20],[-12, 2, 1, 4, -3],[1, 3, 7, 2, 16]]
+def amax b
+ ma = 0; ima = 0
+ b.each_index {|i| r = b[i][0].abs; ma, ima = r, i if r > ma;}
+b[0], b[ima] = b[ima], b[0]
+r = b[0][0]
+b[0].map! {|x| x / r}
+for i in (1...b.length) do
+r = b[i][0]
+b[i].each_index {|j| b[i][j] = b[i][j] - b[0][j] * r}
+end
+b
+end
+b = a; n = a.length
+(0...n).each {|i| b = amax b; a[i] = b[0]; b = b - [b[0]];
+b.each_index {|j| b[j] = b[j] - [b[j][0]]}; }
+a.reverse!
+x = []; x[0] = a[0][1];
+(1...n).each {|i| sum = 0; (0...i).each {|j| sum = sum + x[i - j - 1] * a[i][j + 1]};
+x[i] = a[i][i + 1] - sum;}
+x.reverse!
+p x # -> [1, 2, 1, 1]

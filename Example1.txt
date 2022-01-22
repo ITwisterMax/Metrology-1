@@ -1,0 +1,40 @@
+# input 1
+arr1 = [5, 20, 3, 11, 1, 17, 3, 12, 8, 10]
+
+# sort 1
+swap = true
+size1 = arr1.length - 1
+while swap
+  swap = false
+  for i in 0...size1
+    swap = arr1[i] > arr1[i + 1]
+    arr1[i], arr1[i + 1] = arr1[i + 1], arr1[i] if swap
+  end
+  size1 -= 1
+end
+puts arr1.join(' ')
+puts size1
+
+n = 5
+
+# input 2
+arr2 = []
+j = 0
+while j < 5
+  gets arr2[j].to_i
+  j += 1
+end
+
+# sort 2
+swap = true
+size = arr2.length - 1
+while swap
+  swap = false
+  for i in 0...size2
+    swap = arr2[i] > arr2[i + 1]
+    arr2[i], arr2[i + 1] = arr2[i + 1], arr2[i] if swap
+  end
+  size2 -= 1
+end
+puts arr2.join(' ')
+puts size2

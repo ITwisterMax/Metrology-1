@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.819,D:\Work\МСиСвИнфТ\Лабораторная работа 1\Лабораторная работа 1\Laba1.dfm=D:\Work\МСиСвИнфТ\Лабораторная работа 1\Лабораторная работа 1\MainUnit.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.941,D:\Work\МСиСвИнфТ\Лабораторная работа 1\Laba1.dfm=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.819,D:\Work\МСиСвИнфТ\Лабораторная работа 1\Лабораторная работа 1\Laba1.pas=D:\Work\МСиСвИнфТ\Лабораторная работа 1\Лабораторная работа 1\MainUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.150,D:\Work\МСиСвИнфТ\Лабораторная работа 1\Laba1Main.dproj=C:\Users\user\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.506,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.866,D:\Work\МСиСвИнфТ\Лабораторная работа 1\Лабораторная работа 1\Laba1Main.dproj=D:\Work\МСиСвИнфТ\Лабораторная работа 1\Лабораторная работа 1\Laba1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.941,D:\Work\МСиСвИнфТ\Лабораторная работа 1\Laba1.pas=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.163,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.089,=C:\Users\user\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
